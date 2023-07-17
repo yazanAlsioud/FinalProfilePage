@@ -1,0 +1,142 @@
+body{
+	margin: 0px;
+}
+#header{
+	background-color: lightsalmon;
+	text-align: center;
+	margin: 0;
+	padding: 18px;
+}
+#header h1{
+	margin: 30px;
+	color: white;
+}
+#nav ul{
+	padding: 0;
+	margin: 0;
+	background-color: grey;
+	border-radius: 9px;
+}
+#nav li{
+	display: inline;
+	margin-right: 100px;
+	font-size: 30px;
+}
+#nav a:hover{
+	background-color: lightsalmon;
+	padding: 5px;
+}
+#nav a{
+	text-decoration: none;
+	color: white;
+}
+#about{
+	border-bottom: 1px solid lightsalmon;
+}
+#about h1{
+	margin: 0px;
+	color: lightsalmon;
+}
+#about h3{
+	color: lightsalmon;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+.D{
+	margin-top: 0;
+	padding: 30px;
+	color: lightsalmon;
+	font-style: oblique;
+}
+.T{
+	margin: 0;
+	color: lightsalmon;
+}
+#language{
+	border-bottom: 1px solid lightsalmon;
+}
+#language h1{
+	color: lightsalmon;
+}
+.language_level h2{
+ margin-left: 10px;
+ color: lightsalmon;
+ font-style: italic;
+}
+.all_language{
+	display: flex;
+  	flex-direction: row;
+  	flex-flow: wrap;
+}
+.language{
+	border: 2px solid lightsalmon;
+	padding: 50px;
+	margin: 25px;
+	display: block;
+	width: 1in;
+	text-align: center;
+	box-shadow: 0 3px 10px gray;
+	background-color: white;
+}
+.language img{
+	height: 50px;
+	border-bottom: 10px;
+	width: auto;
+}
+.language p{
+	margin: 0;
+}
+#all_accomp{
+	text-align: center;
+}
+.Accomplishment{
+	padding: 20px;
+	margin: 8px;
+	border: 2px solid lightsalmon;
+}
+#accomp h1{
+	color: lightsalmon;
+}
+#Contact{
+	text-align: center;
+	padding: 25px;
+	background-color: lightsalmon;
+}
+#Contact h1{
+	color: white;
+	margin-bottom: 20px;
+}
+#soc{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+.soc{
+	margin-top: 15px;
+}
+#Up{
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+}
+#UpBtn{
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+	border: none;
+	background-color: lightsalmon;
+	padding: 25px;
+}
+@keyframes btn{
+	from{padding: 25px}
+	to{padding-left: 50px}
+}
+#UpBtn:hover{
+	animation-name: btn;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	background-color: Bisque;
+}
+html{
+	scroll-behavior: smooth;
+}
